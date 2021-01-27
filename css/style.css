@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 #content {
@@ -27,6 +27,7 @@ h1 {
 #header {
     padding: 5.5em 1.5em;
     text-align: center;
+    background: url(../images/pattern-circles.svg) no-repeat center/45%;
 }
 
 #header>h1 {
