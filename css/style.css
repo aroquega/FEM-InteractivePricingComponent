@@ -20,8 +20,8 @@ h1 {
 }
 
 #content {
-    max-width: 375px;
     margin: auto;
+    background: url(../images/bg-pattern.svg) top;
 }
 
 #header {
