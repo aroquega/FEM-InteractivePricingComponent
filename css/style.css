@@ -10,6 +10,7 @@
 :root {
     font-size: 15px;
     font-weight: 600;
+    color: hsl(225, 20%, 60%);
 }
 
 body {
