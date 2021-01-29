@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
 @import url('./header.css');
+@import url('./pricing-panel.css');
 
 *, *::after, *::before {
     margin: 0px;
@@ -21,21 +22,4 @@ body {
 #content {
     margin: auto;
     background: url(../images/bg-pattern.svg) top;
-}
-
-#pricing {
-    background: hsl(0, 0%, 100%);
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    padding: 2em;
-    border-radius: 1em;
-    box-shadow: 0px 10px 10px  hsl(0, 0%, 80%);
-}
-
-#pricing>h2{
-    font-size: 1rem;
-    font-weight: 800;
-    color:  hsl(225, 20%, 60%);
-    text-transform: uppercase;
 }
