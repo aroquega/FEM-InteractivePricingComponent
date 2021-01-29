@@ -1,0 +1,14 @@
+#header {
+    padding: 5.5em 1.5em;
+    text-align: center;
+    background: url(../images/pattern-circles.svg) no-repeat 50% 65%/11em;
+}
+
+#header>h1 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: hsl(227, 35%, 25%)
+}
+#header>p {
+    color: hsl(225, 20%, 60%);
+}
