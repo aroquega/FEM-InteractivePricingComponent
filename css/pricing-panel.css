@@ -10,7 +10,6 @@
 
 #pricing-panel>h2{
     font-size: 1rem;
-    font-weight: 800;
     color:  hsl(225, 20%, 60%);
     text-transform: uppercase;
 }
