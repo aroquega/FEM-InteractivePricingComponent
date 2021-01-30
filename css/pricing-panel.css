@@ -45,3 +45,12 @@ main {
     font-size: 0.8em;
     padding: 0.25em 0.5em;
 }
+
+#pricing-panel .benefits {
+    text-align: center;
+    list-style: url(../images/icon-check.svg) inside;
+}
+
+#pricing-panel .benefits>li {
+    padding: 0.2em;
+}
