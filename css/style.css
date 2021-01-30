@@ -2,6 +2,7 @@
 @import url('./header.css');
 @import url('./pricing-panel.css');
 @import url('./slider.css');
+@import url('./switch.css');
 
 *, *::after, *::before {
     margin: 0px;
