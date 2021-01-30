@@ -1,0 +1,29 @@
+.switch, .thumb {
+    border-radius: 1em;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 3em;
+    height: 1.5em;
+    background-color: #ccc;
+}
+
+.switch > .thumb {
+    appearance: none;
+    outline: none;
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    left: 0;
+    width: 1em;
+    height: 1em;
+    background-color: white;
+    transform: translate(0.3em, -50%);
+    transition: transform .4s;
+}
+
+.switch > .thumb.open {
+    transform: translate(1.7em, -50%);
+}

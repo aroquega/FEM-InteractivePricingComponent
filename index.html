@@ -63,10 +63,18 @@
         </form>
       </main>
       <div class="billing-option-section">
-        <label for="billing-option">
+        <label id="monthly" for="billing-option">
           Monthly Billing
         </label>
-        <input id="billing-option" type="checkbox">
+        <div class="switch">
+          <div
+            id="billing-option"
+            class="thumb"
+            role="switch"
+            aria-checked="false"
+            tabindex="0">
+          </div>
+        </div>
         <label for="billing-option">
           Yearly Billing
           <span class="discount">25%</span>
@@ -90,6 +98,8 @@
       </p>
     </footer>
     <script src="script/slider.js">
+    </script>
+    <script src="script/Switch.js">
     </script>
   </div>
 </body>
