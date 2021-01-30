@@ -13,3 +13,10 @@
     color:  hsl(225, 20%, 60%);
     text-transform: uppercase;
 }
+
+main {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
