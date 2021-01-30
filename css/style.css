@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
 @import url('./header.css');
 @import url('./pricing-panel.css');
+@import url('./slider.css');
 
 *, *::after, *::before {
     margin: 0px;
