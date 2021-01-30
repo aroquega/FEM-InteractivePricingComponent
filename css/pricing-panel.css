@@ -31,3 +31,9 @@ main {
     font-weight: 800;
     color: hsl(227, 35%, 25%);
 }
+
+.billing-option-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
