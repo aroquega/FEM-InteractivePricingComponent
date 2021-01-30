@@ -20,3 +20,9 @@ main {
     flex-flow: column wrap;
     align-items: center;
 }
+
+#pricing-panel .price{
+    font-size: 2em;
+    font-weight: 800;
+    color: hsl(227, 35%, 25%);
+}

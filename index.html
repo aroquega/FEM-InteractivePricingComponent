@@ -41,14 +41,26 @@
         100K Pageviews
       </h2>
       <main>
-        <div class="slider">
-          <div class="progress"></div>
-          <div tabindex="0" class="slider-handle" role="slider" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0">
+        <form>
+          <div class="slider">
+            <div class="progress"></div>
+            <div
+              id="slider"
+              tabindex="0"
+              class="slider-handle"
+              role="slider"
+              aria-valuemin="0"
+              aria-valuemax="10"
+              aria-valuenow="0">
+            </div>
           </div>
-        </div>
-        <p>
-          $ /month
-        </p>
+          <p>
+            <span class="price">
+              $<output for="slider">16.00</output>
+            </span>
+            /month
+          </p>
+        </form>
       </main>
       <div>
         <p>
