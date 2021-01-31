@@ -54,3 +54,12 @@ main {
 #pricing-panel .benefits>li {
     padding: 0.2em;
 }
+
+#pricing-panel .button {
+    background-color: hsl(227, 35%, 25%);
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    color: hsl(226, 100%, 87%);
+    padding: 1em 4em;
+    border-radius: 2em;
+}

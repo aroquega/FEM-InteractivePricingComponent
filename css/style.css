@@ -25,3 +25,9 @@ body {
     margin: auto;
     background: url(../images/bg-pattern.svg) top;
 }
+
+button {
+    appearance: none;
+    outline: none;
+    border: none;
+}
