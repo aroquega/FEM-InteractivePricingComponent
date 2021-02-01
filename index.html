@@ -37,57 +37,61 @@
       </p>
     </header>
     <article id="pricing-panel">
-      <h2>
-        100K Pageviews
-      </h2>
-      <main>
-        <form class="pricing-form">
-          <div class="slider">
-            <div class="progress"></div>
+      <div>
+        <h2>
+          100K Pageviews
+        </h2>
+        <main>
+          <form class="pricing-form">
+            <div class="slider">
+              <div class="progress"></div>
+              <div
+                id="slider"
+                tabindex="0"
+                class="slider-handle"
+                role="slider"
+                aria-valuemin="0"
+                aria-valuemax="10"
+                aria-valuenow="0">
+              </div>
+            </div>
+            <p>
+              <span class="price">
+                $<output for="slider">16.00</output>
+              </span>
+              /month
+            </p>
+          </form>
+        </main>
+        <div class="billing-option-section">
+          <label id="monthly" for="billing-option">
+            Monthly Billing
+          </label>
+          <div class="switch">
             <div
-              id="slider"
-              tabindex="0"
-              class="slider-handle"
-              role="slider"
-              aria-valuemin="0"
-              aria-valuemax="10"
-              aria-valuenow="0">
+              id="billing-option"
+              class="thumb"
+              role="switch"
+              aria-checked="false"
+              tabindex="0">
             </div>
           </div>
-          <p>
-            <span class="price">
-              $<output for="slider">16.00</output>
-            </span>
-            /month
-          </p>
-        </form>
-      </main>
-      <div class="billing-option-section">
-        <label id="monthly" for="billing-option">
-          Monthly Billing
-        </label>
-        <div class="switch">
-          <div
-            id="billing-option"
-            class="thumb"
-            role="switch"
-            aria-checked="false"
-            tabindex="0">
-          </div>
+          <label for="billing-option">
+            Yearly Billing
+            <span class="discount">-25%</span>
+          </label>
         </div>
-        <label for="billing-option">
-          Yearly Billing
-          <span class="discount">-25%</span>
-        </label>
       </div>
       <hr>
-      <ul class="benefits">
-        <li>Unlimited websites</li>
-        <li>100% data ownership</li>
-        <li>Email reports</li>
-      </ul>
       <div>
-        <button class="button">Start my trial</button>
+        <ul class="benefits">
+          <li>Unlimited websites</li>
+          <li>100% data ownership</li>
+          <li>Email reports</li>
+        </ul>
+        <div>
+          <button class="button">Start my trial</button>
+        </div>
       </div>
     </article>
     <footer class="attribution">
