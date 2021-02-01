@@ -11,7 +11,7 @@
 }
 
 :root {
-    font-size: 15px;
+    font-size: 62.5%;
     font-weight: 600;
     color: hsl(225, 20%, 60%);
 }
@@ -19,11 +19,6 @@
 body {
     background: hsl(230, 100%, 99%);
     font-family: 'Manrope', sans-serif;
-}
-
-#content {
-    margin: auto;
-    background: url(../images/bg-pattern.svg) top;
 }
 
 button {
