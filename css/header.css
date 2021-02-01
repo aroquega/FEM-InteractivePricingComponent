@@ -1,7 +1,7 @@
 #header {
     padding: 8.75rem 0 7rem 0;
     text-align: center;
-    background: url(../images/pattern-circles.svg) no-repeat 50% 65%/11em;
+    background: url(../images/pattern-circles.svg) no-repeat center top 60%;
 }
 
 #header>.title {
