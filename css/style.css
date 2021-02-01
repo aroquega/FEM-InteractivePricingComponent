@@ -17,7 +17,7 @@
 }
 
 body {
-    background: hsl(230, 100%, 99%);
+    background: url(../images/bg-pattern.svg) no-repeat, hsl(230, 100%, 99%);
     font-family: 'Manrope', sans-serif;
 }
 
