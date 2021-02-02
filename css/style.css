@@ -16,6 +16,10 @@
     color: hsl(225, 20%, 60%);
 }
 
+#content {
+    font-size: 1.3rem;
+}
+
 body {
     background: url(../images/bg-pattern.svg) no-repeat top/100% 50%, hsl(230, 100%, 99%);
     font-family: 'Manrope', sans-serif;
