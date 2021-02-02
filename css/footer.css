@@ -1,0 +1,15 @@
+footer {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    color: white;
+    background-color: hsl(227, 35%, 25%);
+}
+
+address {
+    font-style: normal;
+}
+
+footer a {
+    color: hsl(226, 100%, 87%);
+}

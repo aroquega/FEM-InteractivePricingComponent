@@ -3,6 +3,7 @@
 @import url('./pricing-panel.css');
 @import url('./slider.css');
 @import url('./switch.css');
+@import url('./footer.css');
 
 *, *::after, *::before {
     margin: 0px;
@@ -16,6 +17,10 @@
     color: hsl(225, 20%, 60%);
 }
 
+html {
+    height: 100%;
+}
+
 #content {
     font-size: 1.3rem;
 }
@@ -23,6 +28,9 @@
 body {
     background: url(../images/bg-pattern.svg) no-repeat top/100% 50%, hsl(230, 100%, 99%);
     font-family: 'Manrope', sans-serif;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
 }
 
 button {
