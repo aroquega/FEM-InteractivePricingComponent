@@ -13,7 +13,16 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    margin: 3em 0;
+    width: 100%;
+}
+
+#pricing-panel>div:first-child {
+    margin: 3.8rem 0;
+    padding: 0 2.4rem;
+}
+
+#pricing-panel>div:nth-child(3){
+    margin: 2.8rem 0 3.2rem 0;
 }
 
 #pricing-panel h2{
