@@ -25,33 +25,35 @@
         </p>
       </div>
     </header>
-    <article id="pricing-panel">
-      <div>
-        <h2>
-          100K Pageviews
-        </h2>
-        <main>
-          <form class="pricing-form">
-            <div class="slider">
-              <div class="progress"></div>
-              <div
-                id="slider"
-                tabindex="0"
-                class="slider-handle"
-                role="slider"
-                aria-valuemin="0"
-                aria-valuemax="10"
-                aria-valuenow="0">
+    <article id="pricing-panel"  class="c-card">
+      <div class="c-card__top">
+        <div class="pricing-panel__main">
+          <h2>
+            100K Pageviews
+          </h2>
+          <main>
+            <form class="pricing-form">
+              <div class="slider">
+                <div class="progress"></div>
+                <div
+                  id="slider"
+                  tabindex="0"
+                  class="slider-handle"
+                  role="slider"
+                  aria-valuemin="0"
+                  aria-valuemax="10"
+                  aria-valuenow="0">
+                </div>
               </div>
-            </div>
-            <p class="price-result">
-              <span class="price">
-                $<output for="slider">16.00</output>
-              </span>
-              <span>/month</span>
-            </p>
-          </form>
-        </main>
+              <p class="price-result">
+                <span class="price">
+                  $<output for="slider">16.00</output>
+                </span>
+                <span>/month</span>
+              </p>
+            </form>
+          </main>
+        </div>
         <div class="billing-option-section">
           <label id="monthly" for="billing-option">
             Monthly Billing
@@ -71,8 +73,7 @@
           </label>
         </div>
       </div>
-      <hr>
-      <div>
+      <div class="c-card__bottom">
         <ul class="benefits">
           <li>Unlimited websites</li>
           <li>100% data ownership</li>
