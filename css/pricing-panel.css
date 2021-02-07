@@ -97,24 +97,20 @@ main {
 */
 
 .c-card {
-    min-width: 325px;
+    min-width: 300px;
     width: 90%;
     max-width: 540px;
     margin: 0 auto;
-    box-shadow: 0px 10px 10px  hsla(0, 0%, 80%, 0.5);
+    background-color: var(--white);
+    border-radius: var(--roundness);
+    box-shadow: 0px 10px 10px hsla(0, 0%, 80%, 0.5);
 }
 
 .c-card__top {
     min-height: 280px;
-    margin-bottom: 1px;
-    background-color: white;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-bottom: 1px solid var(--main-background);
 }
 
 .c-card__bottom {
     min-height: 200px;
-    background-color: white;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
 }
